@@ -1,0 +1,32 @@
+.ItemCount {
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.ItemCount .CountButtons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ItemCount .CountButtons button {
+  background-color: #000;
+  color: #fff;
+  height: 30px;
+  width: 50px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ItemCount .AddButton button {
+  background-color: #000;
+  color: #fff;
+  height: 30px;
+  width: 100px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
