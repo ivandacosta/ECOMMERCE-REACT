@@ -2,14 +2,14 @@ import React from "react";
 import { useState } from "react";
 import "./itemcount.css"
 
-const ItemCount = (stock, onAdd) => {
-    const [counter, SetCounter] = useState(1)
-    stock = 5
+const ItemCount = ({initial, stock ,onAdd}) => {
+    const [counter, SetCounter] = useState(initial)
+    // stock = 5
     
 
-    onAdd = () => {
-        alert(`Agregaste ${counter}`)
-    }
+    // onAdd = () => {
+    //     alert(`Agregaste ${counter}`)
+    // }
 
     //Counter
     const UpCount = () => {
